@@ -107,3 +107,27 @@ print(midi)
   # Compile model
   model = torch.compile(model)
   ```
+
+## Paper
+
+If you find our work useful, please consider citing the paper:
+
+```
+@misc{luo2025fcpefastcontextbasedpitch,
+      title={FCPE: A Fast Context-based Pitch Estimation Model}, 
+      author={Yuxin Luo and Ruoyi Zhang and Lu-Chuan Liu and Tianyu Li and Hangyu Liu},
+      year={2025},
+      eprint={2509.15140},
+      archivePrefix={arXiv},
+      primaryClass={cs.SD},
+      url={https://arxiv.org/abs/2509.15140}, 
+}
+```
+
+### Important details
+
+The model we use in our paper is DDSP-200K, you can get the model from here: [DDSP-200K Model](https://huggingface.co/ChiTu/FCPE/tree/main).
+
+And there's another model which released earlier, you can get it from here [FCPE-Previous](/torchfcpe/assets/fcpe_c_v001.pt).
+
+More information about experiments will be released after the paper is accepted or rejected.
