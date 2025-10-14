@@ -1,5 +1,7 @@
 <h1 align="center">TorchFCPE</h1>
 
+[![arXiv](https://img.shields.io/badge/arXiv%20paper-2509.15140-b31b1b.svg)](https://arxiv.org/abs/2509.15140)&nbsp;
+
 ## Overview
 
 TorchFCPE(Fast Context-based Pitch Estimation) is a PyTorch-based library designed for audio pitch extraction and MIDI conversion. This README provides a quick guide on how to use the library for audio pitch inference and MIDI extraction. 
@@ -129,5 +131,6 @@ If you find our work useful, please consider citing the paper:
 The model we use in our paper is DDSP-200K, you can get the model from here: [DDSP-200K Model](https://huggingface.co/ChiTu/FCPE/tree/main).
 
 And there's another model which released earlier, you can get it from here [FCPE-Previous](/torchfcpe/assets/fcpe_c_v001.pt).
+
 
 More information about experiments will be released after the paper is accepted or rejected.
